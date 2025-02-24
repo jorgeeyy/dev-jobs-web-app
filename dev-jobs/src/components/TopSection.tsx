@@ -1,6 +1,6 @@
 const TopSection: React.FC = () => {
   return (
-    <div className="bg-[#FFFFFF] border-1 border-black-400 h-20 ml-35 mr-35 grid grid-cols-3 absolute">
+    <div className="bg-[#FFFFFF] h-20 ml-35 mr-35 grid grid-cols-3 absolute top-25">
       <div className="h-10 mt-5 flex space-x-2">
         <img
           src="../src/assets/desktop/icon-search.svg"
