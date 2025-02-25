@@ -30,10 +30,10 @@ const Card: React.FC<CardProps> = ({
     <div className="bg-white h-64 w-96 pt-8 mt-10 rounded-xl relative">
       <div
         style={{ backgroundColor: logoBackground }}
-        className="h-12 w-14 pl-2 pt-2 pb-1 rounded-lg ml-7 absolute z-10 -top-6"
+        className="h-12 w-14 pt-2 pl-2 pb-1 rounded-lg ml-7 absolute z-10 -top-6"
       >
         {/* image logo  */}
-        <img src={logo} alt="logo" className="h-5 w-10 mt-2" />
+        <img src={logo} alt="logo" className="h-4 w-8 mt-2 ml-1" />
       </div>
       <div className="mt-3 ml-7 mb-3 flex space-x-2">
         <p className="text-[#6E8098]">{postedAt}</p>
